@@ -1,0 +1,16 @@
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/bin/Debug/net9.0/CursoOnline.Application.deps.json
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/bin/Debug/net9.0/CursoOnline.Application.dll
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/bin/Debug/net9.0/CursoOnline.Application.pdb
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/bin/Debug/net9.0/CursoOnline.Domain.dll
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/bin/Debug/net9.0/CursoOnline.Domain.pdb
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/obj/Debug/net9.0/CursoOnline.Application.csproj.AssemblyReference.cache
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/obj/Debug/net9.0/CursoOnline.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/obj/Debug/net9.0/CursoOnline.Application.AssemblyInfoInputs.cache
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/obj/Debug/net9.0/CursoOnline.Application.AssemblyInfo.cs
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/obj/Debug/net9.0/CursoOnline.Application.csproj.CoreCompileInputs.cache
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/obj/Debug/net9.0/CursoOnline.Application.sourcelink.json
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/obj/Debug/net9.0/CursoOnl.A60EE666.Up2Date
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/obj/Debug/net9.0/CursoOnline.Application.dll
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/obj/Debug/net9.0/refint/CursoOnline.Application.dll
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/obj/Debug/net9.0/CursoOnline.Application.pdb
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/obj/Debug/net9.0/ref/CursoOnline.Application.dll

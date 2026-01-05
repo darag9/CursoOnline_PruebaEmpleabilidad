@@ -1,0 +1,362 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.UnitTests/CursoOnline.UnitTests.csproj": {}
+  },
+  "projects": {
+    "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/CursoOnline.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/CursoOnline.Application.csproj",
+        "projectName": "CursoOnline.Application",
+        "projectPath": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/CursoOnline.Application.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/CursoOnline.Domain.csproj": {
+                "projectPath": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/CursoOnline.Domain.csproj"
+              },
+              "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Infrastructure/CursoOnline.Infrastructure.csproj": {
+                "projectPath": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Infrastructure/CursoOnline.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.15.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/daniel/.dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/CursoOnline.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/CursoOnline.Domain.csproj",
+        "projectName": "CursoOnline.Domain",
+        "projectPath": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/CursoOnline.Domain.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/daniel/.dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Infrastructure/CursoOnline.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Infrastructure/CursoOnline.Infrastructure.csproj",
+        "projectName": "CursoOnline.Infrastructure",
+        "projectPath": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Infrastructure/CursoOnline.Infrastructure.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/CursoOnline.Domain.csproj": {
+                "projectPath": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/CursoOnline.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/daniel/.dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.UnitTests/CursoOnline.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.UnitTests/CursoOnline.UnitTests.csproj",
+        "projectName": "CursoOnline.UnitTests",
+        "projectPath": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.UnitTests/CursoOnline.UnitTests.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.UnitTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/CursoOnline.Application.csproj": {
+                "projectPath": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Application/CursoOnline.Application.csproj"
+              },
+              "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/CursoOnline.Domain.csproj": {
+                "projectPath": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/CursoOnline.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/daniel/.dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

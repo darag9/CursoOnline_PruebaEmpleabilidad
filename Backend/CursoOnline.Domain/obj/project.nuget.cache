@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0/XumicHgxg=",
+  "success": true,
+  "projectFilePath": "/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/CursoOnline.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/daniel/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/home/daniel/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}

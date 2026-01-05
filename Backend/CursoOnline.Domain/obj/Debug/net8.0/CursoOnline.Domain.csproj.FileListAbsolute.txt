@@ -1,0 +1,12 @@
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/bin/Debug/net8.0/CursoOnline.Domain.deps.json
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/bin/Debug/net8.0/CursoOnline.Domain.dll
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/bin/Debug/net8.0/CursoOnline.Domain.pdb
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/obj/Debug/net8.0/CursoOnline.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/obj/Debug/net8.0/CursoOnline.Domain.AssemblyInfoInputs.cache
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/obj/Debug/net8.0/CursoOnline.Domain.AssemblyInfo.cs
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/obj/Debug/net8.0/CursoOnline.Domain.csproj.CoreCompileInputs.cache
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/obj/Debug/net8.0/CursoOnline.Domain.sourcelink.json
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/obj/Debug/net8.0/CursoOnline.Domain.dll
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/obj/Debug/net8.0/refint/CursoOnline.Domain.dll
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/obj/Debug/net8.0/CursoOnline.Domain.pdb
+/home/daniel/RiderProjects/CursoOnline_PruebaEmpleabilidad/Backend/CursoOnline.Domain/obj/Debug/net8.0/ref/CursoOnline.Domain.dll
