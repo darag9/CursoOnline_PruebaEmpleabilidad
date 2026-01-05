@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect } from 'react'; // 1. Faltaba importar useEffect
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '@/contexts/AuthContext';
 import { Button } from '@/components/ui/button';
@@ -9,48 +9,48 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { BookOpen, Loader2 } from 'lucide-react';
 
 export default function Auth() {
+    // 2. Desestructurar 'register' que faltaba
+    const { login, register, user, isLoading } = useAuth();
     const navigate = useNavigate();
-    const { login, register, user } = useAuth();
-    const [isLoading, setIsLoading] = useState(false);
 
-    // Redirect if already logged in
-    if (user) {
-        navigate(user.role === 'Admin' ? '/admin' : '/student');
-        return null;
-    }
+    useEffect(() => {
+        if (!isLoading && user) {
+            if (user.role === 'Admin') {
+                navigate('/admin');
+            } else {
+                navigate('/student');
+            }
+        }
+    }, [user, isLoading, navigate]);
 
     const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        setIsLoading(true);
+
+        // 3. Extraer datos del formulario (ya que no usas useState para los inputs)
         const formData = new FormData(e.currentTarget);
         const email = formData.get('email') as string;
         const password = formData.get('password') as string;
 
         try {
             await login(email, password);
-            // AuthContext will set the user, triggering redirect
         } catch (error) {
-            // Error handled in AuthContext
-        } finally {
-            setIsLoading(false);
+            console.error("Login error:", error);
         }
     };
 
     const handleRegister = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        setIsLoading(true);
+
         const formData = new FormData(e.currentTarget);
         const name = formData.get('name') as string;
         const email = formData.get('email') as string;
         const password = formData.get('password') as string;
 
         try {
+            // 4. Eliminamos setIsLoading(true) porque isLoading ya lo maneja el AuthContext
             await register(email, password, name);
-            // AuthContext will set the user, triggering redirect
         } catch (error) {
-            // Error handled in AuthContext
-        } finally {
-            setIsLoading(false);
+            console.error("Register error:", error);
         }
     };
 
@@ -79,7 +79,7 @@ export default function Auth() {
                                     <Label htmlFor="login-email">Correo electrónico</Label>
                                     <Input
                                         id="login-email"
-                                        name="email"
+                                        name="email" // Importante para FormData
                                         type="email"
                                         placeholder="tu@email.com"
                                         required
@@ -90,7 +90,7 @@ export default function Auth() {
                                     <Label htmlFor="login-password">Contraseña</Label>
                                     <Input
                                         id="login-password"
-                                        name="password"
+                                        name="password" // Importante para FormData
                                         type="password"
                                         placeholder="••••••••"
                                         required
